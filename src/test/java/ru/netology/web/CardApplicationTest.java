@@ -36,7 +36,7 @@ public class CardApplicationTest {
     }
 
     @Test
-    void shouldTest(){
+    void shouldTest() {
         driver.get("http://localhost:9999");
         driver.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys("Евгений Бабушкин");
         driver.findElement(By.cssSelector("[data-test-id=phone] input")).sendKeys("+72345678901");
